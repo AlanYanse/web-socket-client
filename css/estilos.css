@@ -1,0 +1,21 @@
+
+.contenedor1 {
+
+    display: flex;
+    background-color: cornflowerblue;
+    margin-top: 30px;
+}
+
+
+
+.contenedor2 {
+
+    display: flex;
+    background-color: aqua;
+    margin-top: 15px;
+}
+
+#enviarMensaje {
+
+    margin-left: 9px;
+}

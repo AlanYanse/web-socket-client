@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Cliente Web Socket</title>
+    <link href="css/estilos.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <div class="contenedor1">
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" />
+      <button onclick="enviarMensajeAlServidor()">Enviar</button>
+      <textarea id="estado-usuarios" name="estado-usuarios" rows="5" cols="33">
+        Acá se muestran los usuarios en linea...
+      </textarea>
+
+    </div>
+
+    <div class="contenedor2">
+
+      <label for="enviarMensaje">Mensaje:</label>
+      <input type="text" id="enviarMensaje" />
+      <button onclick="enviarMensajeAlServidor()">Enviar</button>
+      <textarea id="chat" name="chat" rows="15" cols="66">
+        Acá se muestran los mensajes de los usuarios...
+      </textarea>
+
+    </div>
+    
+
+    <script src="src/WebSocketClient.js"></script>
+  </body>
+</html>
